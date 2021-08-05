@@ -1,0 +1,51 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=debug
+CELERY_FLOWER_PASSWORD=debug
+CELERY_BROKER_URL=''
+
+SECRET_KEY="++as6b-!#pnbkihol5!(p_3xfm#8eaq)5ue#-6oyhsc&7"
+DEBUG=True
+
+# For Email Confirmation
+
+EMAIL_ACTIVE_FIELD=is_active
+EMAIL_SERVER=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_ADDRESS=
+EMAIL_FROM_ADDRESS=
+EMAIL_PASSWORD=
+EMAIL_MAIL_SUBJECT="Confirm your email"
+EMAIL_MAIL_HTML=mail_body.html
+EMAIL_MAIL_PLAIN=
+EMAIL_PAGE_TEMPLATE=confirm_template.html
+EMAIL_PAGE_DOMAIN=http://localhost:8000/
+
+# To send custom msg emails
+
+EMAIL_HOST=smtp.gmail.com
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+EMAIL_PORT=587
+EMAIL_USE_TLS=True
+
+# Puhser Configurations
+
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_SECRET=
+PUSHER_CLUSTER=
+
+# Recaptcha Configurations
+RECAPTCHA_PUBLIC_KEY=
+RECAPTCHA_PRIVATE_KEY=

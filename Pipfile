@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
+pusher = "*"
+pillow = "*"
+soft-delete = "*"
+python-decouple = "*"
+django-resized = "*"
+rest-framework-generic-relations = "*"
+psycopg2 = "*"
+django-email-verification = "*"
+beautifulsoup4 = "*"
+djangorestframework-recaptcha = "*"
+celery = "*"
+django-environ = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
